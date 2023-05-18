@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	max-width: 1480px;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+#contact-form .form-group{
+	margin-bottom:20px;
+}
+#contact-form label{
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+#contact-form input,
+#contact-form textarea{
+	 float:center; width:100%;
+	 height:40px;
+}
+#contact-form textarea{
+	height:160px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+	outline: none;
+	border-color: #2F463A;
+	height: 40px;
+}
+.btn{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #000;
+	border: none;
+	padding-top: 13px;
+	padding-right: 20px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	margin-top: 40px;
+}
+.btn:hover{
+	background:#2F463A;
+}
+.btn-light{
+	background:#f4f4f4;
+	color:#333;
+}
+.text-primary{
+	color:#2F463A;
+}
+.py{
+	padding-top: 10px;
+	padding-right: auto;
+	padding-bottom: 10px;
+	padding-left: auto;
+	
+}
+.l-heading{
+	font-size:40px;
+	padding-top:20px;
+}
+#contact-form .container .b {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer .w .footer_hd .introduce .hd_title p a {
+	color: #CCC;
+}
